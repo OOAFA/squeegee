@@ -34,7 +34,7 @@ Example Command: `python3 squeegee.py -l 'en' 'ru' -f /image/folder`
 
 Example Command: `python3 extract.py -f shodan.json.gz -D /image/folder`
 
-### Filtering and Signagures:
+### Filtering and Signatures:
 
 RDP screen captures often contain information that is not useful in the context of username extraction and host characteristic identification. Filtered strings are included in files found in the filters directory of this project that are line terminated. The filter files are are prefixed with the targeted language code (example: English filter file = en.filter.txt).
 
