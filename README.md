@@ -17,7 +17,7 @@ This tool is used to copy screen captures out of Shodan search result logs store
 
 ## squeegee.py
 
-This tool is used to extract useful strings from RDP screen captures and identify the OS running on the host, whether missing patches have been identifed, the domain (if any) the host is joined to, and usernames displayed on the logon screen. RDPScrape uses the easyocr library, this library is likely to be more accurate on a system with a supported GPU. Depending on the resolution of the target image, string detection may be inaccurate. Any unwanted strings should be added to the filter.txt file to suppress display in reporting output.
+This tool is used to extract useful strings from RDP screen captures and identify the OS running on the host, whether missing patches have been identifed, the domain (if any) the host is joined to, and usernames displayed on the logon screen. squeegee.py uses the easyocr library, this library is likely to be more accurate on a system with a supported GPU. Depending on the resolution of the target image, string detection may be inaccurate. Any unwanted strings should be added to the filter.txt file to suppress display in reporting output.
 
 
 ### Getting Started:
