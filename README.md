@@ -34,6 +34,10 @@ Example Command: `python3 squeegee.py -l 'en' 'ru' -f /image/folder`
 
 Example Command: `python3 extract.py -f shodan.json.gz -D /image/folder`
 
+### Sample Output:
+
+
+
 ### Filtering and Signatures:
 
 RDP screen captures often contain information that is not useful in the context of username extraction and host characteristic identification. Filtered strings are included in files found in the filters directory of this project that are line terminated. The filter files are are prefixed with the targeted language code (example: English filter file = en.filter.txt).
@@ -41,3 +45,7 @@ RDP screen captures often contain information that is not useful in the context 
 Signatures are used to identify useful characteristics in a RDP screen capture like Active Directory domain, operating system version, and whether the host is missing updates. All signature files are found in the signatures directory of this project. Signatures to identify Active Directory domain and missing updates are line terminated. Signatures to identify operating systems are stored in JSON format to minimize duplication. All signature files are prefixed with the targeted language code (example: English variants = en.domain.txt, en.missingupdates.txt, en.os.json).
 
 The easiest method to generate new filter and signature files is to run the tool with no support for the targeted language, then transcribe unnecessary strings into the appropriate file.
+
+### Credits:
+David Fletcher
+github.com/aut0m8r
