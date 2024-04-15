@@ -38,12 +38,11 @@ Example Command: `python3 extract.py -f shodan.json.gz -D /image/folder`
 
 The following image shows the table of contents. Report pages are created for each detected operating system version and a count of each type is included. At the bottom of the table of contents is a link to a list of unique useranames discovered in the group.
 
-![Example RDP Table of Contents](https://github.com/OOAFA/squeegee/blob/main/RDPEntry.png?raw=true)
+![Example RDP Entry](https://github.com/OOAFA/squeegee/blob/main/TableOfContents.png?raw=true)
 
 The following image shows an individual entry in the HTML report. String content on the image is interpreted to identify the operating system, whether patches are missing, and the domain the system belongs to. Meaningless strings are filtered from the output and usernames are extracted, listed on the page, and included in a text-based users file.
 
-![Example RDP Entry](https://github.com/OOAFA/squeegee/blob/main/TableOfContents.png?raw=true)
-
+![Example RDP Table of Contents](https://github.com/OOAFA/squeegee/blob/main/RDPEntry.png?raw=true)
 
 ### Filtering and Signatures:
 
